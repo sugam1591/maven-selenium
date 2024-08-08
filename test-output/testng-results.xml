@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-06T02:10:26 GMT-07:00" name="Default suite" finished-at="2024-08-06T02:10:26 GMT-07:00" duration-ms="168">
+    <groups>
+      <group name="functional">
+        <method signature="group.loginbyemail()[pri:1, instance:maven_selenium.group@76505305]" name="loginbyemail" class="maven_selenium.group"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="group.loginbyemail()[pri:1, instance:maven_selenium.group@76505305]" name="loginbyemail" class="maven_selenium.group"/>
+        <method signature="group.paymentinrupees()[pri:4, instance:maven_selenium.group@76505305]" name="paymentinrupees" class="maven_selenium.group"/>
+        <method signature="group.signupbyemail()[pri:4, instance:maven_selenium.group@76505305]" name="signupbyemail" class="maven_selenium.group"/>
+        <method signature="group.signupbyfacebook()[pri:5, instance:maven_selenium.group@76505305]" name="signupbyfacebook" class="maven_selenium.group"/>
+        <method signature="group.signupbytwitter()[pri:6, instance:maven_selenium.group@76505305]" name="signupbytwitter" class="maven_selenium.group"/>
+        <method signature="group.paymentreturnbybank()[pri:7, instance:maven_selenium.group@76505305]" name="paymentreturnbybank" class="maven_selenium.group"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="group.loginbyemail()[pri:1, instance:maven_selenium.group@76505305]" name="loginbyemail" class="maven_selenium.group"/>
+        <method signature="group.Loginbyfacebook()[pri:2, instance:maven_selenium.group@76505305]" name="Loginbyfacebook" class="maven_selenium.group"/>
+        <method signature="group.paymentindollar()[pri:2, instance:maven_selenium.group@76505305]" name="paymentindollar" class="maven_selenium.group"/>
+        <method signature="group.logininbytwitter()[pri:3, instance:maven_selenium.group@76505305]" name="logininbytwitter" class="maven_selenium.group"/>
+        <method signature="group.paymentinrupees()[pri:4, instance:maven_selenium.group@76505305]" name="paymentinrupees" class="maven_selenium.group"/>
+        <method signature="group.signupbyemail()[pri:4, instance:maven_selenium.group@76505305]" name="signupbyemail" class="maven_selenium.group"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-08-06T02:10:26 GMT-07:00" name="Default test" finished-at="2024-08-06T02:10:26 GMT-07:00" duration-ms="168">
+      <class name="maven_selenium.group">
+        <test-method signature="loginbyemail()[pri:1, instance:maven_selenium.group@76505305]" started-at="2024-08-06T02:10:26 GMT-07:00" name="loginbyemail" finished-at="2024-08-06T02:10:26 GMT-07:00" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbyemail -->
+        <test-method signature="Loginbyfacebook()[pri:2, instance:maven_selenium.group@76505305]" started-at="2024-08-06T02:10:26 GMT-07:00" name="Loginbyfacebook" finished-at="2024-08-06T02:10:26 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginbyfacebook -->
+        <test-method signature="paymentindollar()[pri:2, instance:maven_selenium.group@76505305]" started-at="2024-08-06T02:10:26 GMT-07:00" name="paymentindollar" finished-at="2024-08-06T02:10:26 GMT-07:00" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentindollar -->
+        <test-method signature="logininbytwitter()[pri:3, instance:maven_selenium.group@76505305]" started-at="2024-08-06T02:10:26 GMT-07:00" name="logininbytwitter" finished-at="2024-08-06T02:10:26 GMT-07:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logininbytwitter -->
+        <test-method signature="paymentinrupees()[pri:4, instance:maven_selenium.group@76505305]" started-at="2024-08-06T02:10:26 GMT-07:00" name="paymentinrupees" finished-at="2024-08-06T02:10:26 GMT-07:00" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentinrupees -->
+        <test-method signature="signupbyemail()[pri:4, instance:maven_selenium.group@76505305]" started-at="2024-08-06T02:10:26 GMT-07:00" name="signupbyemail" finished-at="2024-08-06T02:10:26 GMT-07:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupbyemail -->
+        <test-method signature="signupbyfacebook()[pri:5, instance:maven_selenium.group@76505305]" started-at="2024-08-06T02:10:26 GMT-07:00" name="signupbyfacebook" finished-at="2024-08-06T02:10:26 GMT-07:00" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupbyfacebook -->
+        <test-method signature="signupbytwitter()[pri:6, instance:maven_selenium.group@76505305]" started-at="2024-08-06T02:10:26 GMT-07:00" name="signupbytwitter" finished-at="2024-08-06T02:10:26 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupbytwitter -->
+        <test-method signature="paymentreturnbybank()[pri:7, instance:maven_selenium.group@76505305]" started-at="2024-08-06T02:10:26 GMT-07:00" name="paymentreturnbybank" finished-at="2024-08-06T02:10:26 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentreturnbybank -->
+      </class> <!-- maven_selenium.group -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
